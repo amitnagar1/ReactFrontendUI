@@ -6,9 +6,121 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: #963440
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.mainheading{
+  font-size: 30px;
+  font-family:  'Droid serif', serif; 
+  font-size: 36px; 
+  font-weight: 400; 
+  font-style: italic;
+  color: rgb(234, 239, 248);
+  text-align: center;
+  margin-top: 50px;
+}
+
+.box h1 {
+  font-family:  'Droid serif', serif; 
+  font-style: italic;
+  margin: 0 0 10px;
+  padding: 0;
+  padding-left: 15px;
+  color: rgb(234, 239, 248);
+  font-size: 24px;
+}
+
+.box{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.box input button{
+  position: relative;
+  display: inline-block;
+  font-size: 20px;
+  box-sizing: border-box;
+  
+}
+
+.box input[type="text"]{
+  background: #fff;
+  width: 240px;
+  height: 50px;
+  border: none;
+  outline: none;
+  padding: 0 25px;
+  border-radius: 25px 0 0 25px;
+}
+
+.box button[type="submit"]{
+  position: relative;
+  border-radius: 0 25px 25px 0;
+  width: 150px;
+  height: 50px;
+  border: none;
+  outline: none;
+  background: #ffc107;
+  color: #fff;
+  cursor: pointer
+
+}
+
+.box button[type="submit"]:hover{
+  background: #ff5722
+}
+
+.postarea{
+  position: absolute;
+  top: 60%;
+  margin: 0 auto;
+  text-align: center;
+  width: 100%;
+  background: #edf1f4;
+}
+
+ .posts{
+  width: 50%;
+  
+  background:#ffffff;
+  margin: 10px auto;
+ 
+  padding: 10px 10px 10px 10px;
+  box-shadow: 2px 2px 5px grey;
+}
+
+.hashedlink{
+  color: #ee6123;
+  font-style: italic;
+  font-family:  'Droid serif', serif; 
+  
+}
+
+.originallink{
+  color: darkgrey;
+  font-style: italic;
+  font-family:  'Droid serif', serif; 
+  
+}
+
+#closebutton{
+  color: darkred;
+  height: 25px;
+  cursor: pointer;
+  float: right;
+  margin-right: 15px;
+}
+
+
+
+
+
+  
+  
