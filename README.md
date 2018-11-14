@@ -18,3 +18,11 @@ Note: For windows Port is set in package.json :
 
 For linux users :
 Try: "start": " PORT=8889 && react-scripts start"
+
+The  functionalities are such as: 
+
+1. Fetching all post from backend server and displaying on page.
+2. Creating a new hashed link, storing to server and displaying on page.
+3 Deleting a specific Link post.
+
+The edit functionality is missing from front-end at the moment.
