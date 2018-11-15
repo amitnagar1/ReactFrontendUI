@@ -1,6 +1,6 @@
 A React UI for the URL shortening service.
 
-Note: Make sure t0 start the backend server, as posts are fetched and saved there.
+Note: Make sure to start the backend server, as posts are fetched and saved there.
 Link provided: https://github.com/amitnagar1/BackendTask
 
 Step 1: Clone the repository.
